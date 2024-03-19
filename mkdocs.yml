@@ -4,4 +4,4 @@ site_url: https://cepeu.github.io/Testdocs/
 theme:
     name: readthedocs
 
-docs_dir:'/docs'
+docs_dir: '/docs'
