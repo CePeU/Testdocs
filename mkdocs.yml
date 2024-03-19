@@ -5,4 +5,4 @@ theme:
     name: readthedocs
 
 nav:
-  - Home: '/Index/Index.html'
+  - Home: '/Index/index.html'
