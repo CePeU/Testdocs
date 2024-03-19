@@ -33,9 +33,3 @@ markdown_extensions:
     #- pymdownx.inlinehilite # python code block highlighting? Also adds linenumbering!
     #- pymdownx.snippets
     - pymdownx.superfences # adds linenumbers!
-
-plugins: 
-  - search: # Enables search. If plugins are used search must be explicitly enabled
-        lang: en # the site language will be english so searching in english makes sense
-  #- privacy # Loads all external assets before build
-  - roamlinks # Plugin for translating markdown links to local and external links
