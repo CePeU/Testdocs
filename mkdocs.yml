@@ -2,7 +2,7 @@ site_name: Build123d for noobs TEST
 site_url: https://cepeu.github.io/Testdocs
 
 theme:
-    name: material
+    name: readthedocs
     #repo_url: https://github.com/CePeU/build123d
     features:
         #- search.highlight # Highlight all occurences of search after selecting link
