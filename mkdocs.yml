@@ -1,22 +1,22 @@
-site_name: Build123d Noob help
-site_url: https://github.com/CePeU/build123d
+site_name: Build123d for noobs TEST
+site_url: https://cepeu.github.io/Testdocs
 
 theme:
     name: material
-    repo_url: https://github.com/CePeU/build123d
+    #repo_url: https://github.com/CePeU/build123d
     features:
         #- search.highlight # Highlight all occurences of search after selecting link
-        - search.share # allows for a share button after searching
+        #- search.share # allows for a share button after searching
         #- header.autohide # hides the header uppon scrolling use for more screen size?
-        - content.code.copy # Renders a copy button in the code block
-        - content.code.select
-        - content.code.annotate
+        #- content.code.copy # Renders a copy button in the code block
+        #- content.code.select
+        #- content.code.annotate
         - navigation.path
-        - toc.integrate # Integrates the left side table of content into the navigation to the right
+        #- toc.integrate # Integrates the left side table of content into the navigation to the right
         #- toc.follow # Not sure yet what it does
-        - navigation.top # Back to top button is rendered uppon startin to scroll back to top
-        - navigation.tabs # top-level sections are rendered at the TOP in a menu layer below the header for viewports above 1220px, but remain as-is on mobile
-        - navigation.tabs.sticky # scrolling does not "hide" tabs
+        #- navigation.top # Back to top button is rendered uppon startin to scroll back to top
+        #- navigation.tabs # top-level sections are rendered at the TOP in a menu layer below the header for viewports above 1220px, but remain as-is on mobile
+        #- navigation.tabs.sticky # scrolling does not "hide" tabs
         #- navigation.sections # groups first/second level into groups but disables folding. Looks nice but gets too long
         #- navigation.expands # will expand alls collapsed subsection as default
         #- navigation.prune # Will need to considere if site gets above 100+ pages
@@ -36,6 +36,5 @@ markdown_extensions:
 plugins: 
   - search: # Enables search. If plugins are used search must be explicitly enabled
         lang: en # the site language will be english so searching in english makes sense
+  #- privacy # Loads all external assets before build
   - roamlinks # Plugin for translating markdown links to local and external links
-  - privacy # Loads all external assets before build
-  
