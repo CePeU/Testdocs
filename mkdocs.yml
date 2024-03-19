@@ -1,5 +1,6 @@
 site_name: Build123d for noobs TEST
-site_url: https://cepeu.github.io/Testdocs/docs/
+site_url: https://cepeu.github.io/Testdocs/
+use_directory_urls: false
 
 theme:
     name: readthedocs
